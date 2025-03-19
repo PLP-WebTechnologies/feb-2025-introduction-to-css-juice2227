@@ -1,0 +1,84 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#table{
+    margin: 5px;
+    line-height: 25px;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+table{
+    width: 100px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid green;
+}
+
+button{
+    color: white;
+    border-radius: 15px;
+    background-color: blue;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    transition: 0.3s;
+
+}
+button:hover{
+    background-color: burlywood;
+    color: #000;
+}
+p{
+font-size: 20px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 20px;
+    gap: 10px;
+    background: green;
+    position: relative;
+    transition: transform 300ms ease-in-out, box-shadow 400ms ease, background 100ms ease
+    
+}
+#form label, 
+#form input, 
+#form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+
+.image-container {
+    display: flex;
+    
+}
+
+.image-container img {
+    width: 200px;
+    height: 250px;
+    object-fit: fill;
+
+    
+}
